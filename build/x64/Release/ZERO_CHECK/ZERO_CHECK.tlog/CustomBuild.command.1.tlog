@@ -1,0 +1,10 @@
+^D:\MYCODE\CMAKEDLLEXAMPLE\BUILD\CMAKEFILES\395CCA03F6EC3006B1F67A2DC56EDE8C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/mycode/cmakeDLLexample -BD:/mycode/cmakeDLLexample/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/mycode/cmakeDLLexample/build/MyLibrary.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

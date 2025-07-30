@@ -1,0 +1,3 @@
+D:/mycode/cmakeDLLexample/build/CMakeFiles/MyLibrary.dir
+D:/mycode/cmakeDLLexample/build/CMakeFiles/ALL_BUILD.dir
+D:/mycode/cmakeDLLexample/build/CMakeFiles/ZERO_CHECK.dir
